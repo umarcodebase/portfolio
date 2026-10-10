@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ===== SEO ===== -->
+  <title>Umar Shahzad | Electrical Engineer · Data Center Critical Power & Operations</title>
+  <meta name="description" content="Umar Shahzad, Electrical Engineer and AWS Data Center Engineering Operations (DCEO) Intern in Milan. Critical power, HV transformers, switchgear, power systems and mission-critical infrastructure. MSc Energy Engineering, University of Padova.">
+  <meta name="keywords" content="Data Center Operations Engineer, Data Center Electrical Engineer, Critical Facilities Engineer, Critical Power, Mission-Critical Infrastructure, Power Systems Engineer, UPS, Switchgear, Power Transformers, Preventive Maintenance, DIgSILENT PowerFactory, COMSOL, AWS DCEO, Milan, EU">
+  <meta name="author" content="Umar Shahzad">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://umarcodebase.github.io/">
+  <meta name="theme-color" content="#080d14">
+
+  <!-- Open Graph (LinkedIn, WhatsApp, Facebook previews) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Umar Shahzad | Electrical Engineer · Data Center Critical Power & Operations">
+  <meta property="og:description" content="AWS DCEO Intern (Milan) · 132 kV grid projects · 500/220 kV substation maintenance · Transformer structural-dynamics research · Open to data center roles across the EU.">
+  <meta property="og:url" content="https://umarcodebase.github.io/">
+  <meta property="og:image" content="https://umarcodebase.github.io/images/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="profile:first_name" content="Umar">
+  <meta property="profile:last_name" content="Shahzad">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Umar Shahzad | Data Center Critical Power & Operations">
+  <meta name="twitter:description" content="Electrical Engineer · AWS DCEO Intern · Power systems, transformers, switchgear and mission-critical infrastructure.">
+  <meta name="twitter:image" content="https://umarcodebase.github.io/images/og-image.jpg">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <!-- Fonts (IBM Plex: engineering-grade, highly legible) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preload" as="image" href="images/profile.jpg">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured data: Person -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Umar Shahzad",
+    "url": "https://umarcodebase.github.io/",
+    "image": "https://umarcodebase.github.io/images/profile.jpg",
+    "email": "mailto:umarrshahzad.pk@gmail.com",
+    "jobTitle": "Data Center Engineering Operations (DCEO) Intern",
+    "worksFor": { "@type": "Organization", "name": "Amazon Web Services (AWS)" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Milan", "addressCountry": "IT" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University of Padova" },
+      { "@type": "CollegeOrUniversity", "name": "Bahria University" },
+      { "@type": "CollegeOrUniversity", "name": "Leibniz University Hannover" }
+    ],
+    "knowsAbout": ["Critical power", "Data center operations", "Power transformers", "Switchgear", "Power system protection", "Load flow analysis", "DIgSILENT PowerFactory", "COMSOL Multiphysics", "Phasor Measurement Units"],
+    "knowsLanguage": ["English", "Italian", "German", "Urdu", "Punjabi"],
+    "sameAs": ["https://www.linkedin.com/in/umar-shahzad/", "https://github.com/umarcodebase"]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Scroll progress bar -->
+  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Umar Shahzad, back to top">
+        <span class="nav__logo">US</span><span class="nav__name">Umar Shahzad</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav__links" id="navLinks">
+          <li><a href="#value">Value</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#hire" class="nav__cta">Hire me</a></li>
+        </ul>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Switch to light theme" title="Toggle theme">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2.5M12 19.5V22M4.2 4.2l1.8 1.8M18 18l1.8 1.8M2 12h2.5M19.5 12H22M4.2 19.8 6 18M18 6l1.8-1.8"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 0 1 9.5 3.5a8.5 8.5 0 1 0 11 11z"/></svg>
+        </button>
+        <button class="icon-btn nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== 1. HERO ===== -->
+    <section class="hero" id="top">
+      <div class="hero__cover" aria-hidden="true"></div>
+      <canvas id="gridCanvas" class="hero__canvas" aria-hidden="true"></canvas>
+
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="status-chip anim" style="--d:0">
+            <span class="status-dot"></span> <span class="hide-sm">SYSTEM STATUS:</span> <strong>OPEN TO DATA CENTER ROLES · EU</strong>
+          </p>
+
+          <div class="hero__id anim" style="--d:1">
+            <img src="images/profile.jpg" width="640" height="640" alt="Portrait of Umar Shahzad, Electrical Engineer" class="hero__photo">
+            <div>
+              <h1 class="hero__name">Umar Shahzad</h1>
+              <p class="hero__headline">Electrical Engineer&nbsp;|&nbsp;Data Center Critical Power &amp; Operations</p>
+            </div>
+          </div>
+
+          <p class="hero__type anim" style="--d:2" aria-live="off">
+            <span class="mono muted">Targeting:</span>
+            <span id="typewriter" class="typewriter">Data Center Operations Engineer</span><span class="caret" aria-hidden="true"></span>
+          </p>
+
+          <p class="hero__sub anim" style="--d:3">
+            <strong>Data Center Engineering Operations (DCEO) Intern at AWS</strong> in Milan, with a power path that runs from
+            132&nbsp;kV grid projects and 500/220&nbsp;kV substation maintenance to transformer research at Leibniz University Hannover.
+          </p>
+
+          <p class="hero__meta anim mono" style="--d:4">
+            <span>📍 Milan, Italy</span><span>🎓 MSc Energy Engineering · Padova · Dec 2026 (expected)</span>
+          </p>
+
+          <div class="hero__ctas anim" style="--d:5">
+            <a href="#hire" class="btn btn--primary">Hire me</a>
+            <a href="assets/CV.pdf" class="btn btn--ghost" download>Download CV</a>
+            <a href="https://www.linkedin.com/in/umar-shahzad/" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <!-- Animated data hall: grid feed → transformer → UPS → racks -->
+        <div class="hero__visual anim" style="--d:3" aria-hidden="true">
+          <svg viewBox="0 0 420 380" class="datahall">
+            <text x="210" y="22" class="dh-title" text-anchor="middle">MISSION-CRITICAL INFRASTRUCTURE</text>
+            <!-- feeder path -->
+            <path class="dh-wire" d="M30 70 H120 V120 H300 V170"/>
+            <path class="dh-flow" d="M30 70 H120 V120 H300 V170"/>
+            <path class="dh-wire" d="M300 170 V200 H70 V230 M150 200 V230 M230 200 V230 M310 200 V230"/>
+            <path class="dh-flow dh-flow--b" d="M300 170 V200 H70 V230 M150 200 V230 M230 200 V230 M310 200 V230"/>
+            <!-- grid node -->
+            <g transform="translate(14 54)"><rect class="dh-box" width="32" height="32" rx="6"/><path class="dh-ico" d="M16 6 L10 18 H16 L13 27 L22 13 H16 L19 6Z"/></g>
+            <text x="30" y="104" class="dh-lbl" text-anchor="middle">GRID</text>
+            <!-- transformer -->
+            <g transform="translate(100 46)"><rect class="dh-box" width="40" height="40" rx="6"/><circle class="dh-ico-s" cx="16" cy="20" r="8"/><circle class="dh-ico-s" cx="24" cy="20" r="8"/></g>
+            <text x="120" y="38" class="dh-lbl" text-anchor="middle">TX</text>
+            <!-- UPS -->
+            <g transform="translate(272 132)"><rect class="dh-box" width="56" height="38" rx="6"/><text x="28" y="24" class="dh-in" text-anchor="middle">UPS</text></g>
+            <!-- racks -->
+            <g class="racks">
+              <g transform="translate(40 230)"><rect class="dh-rack" width="60" height="120" rx="4"/><g class="leds"><circle cx="12" cy="16" r="2.4"/><circle cx="12" cy="34" r="2.4"/><circle cx="12" cy="52" r="2.4"/><circle cx="12" cy="70" r="2.4"/><circle cx="12" cy="88" r="2.4"/><circle cx="12" cy="106" r="2.4"/></g><g class="slots"><rect x="20" y="12" width="32" height="8"/><rect x="20" y="30" width="32" height="8"/><rect x="20" y="48" width="32" height="8"/><rect x="20" y="66" width="32" height="8"/><rect x="20" y="84" width="32" height="8"/><rect x="20" y="102" width="32" height="8"/></g></g>
+              <g transform="translate(120 230)"><rect class="dh-rack" width="60" height="120" rx="4"/><g class="leds l2"><circle cx="12" cy="16" r="2.4"/><circle cx="12" cy="34" r="2.4"/><circle cx="12" cy="52" r="2.4"/><circle cx="12" cy="70" r="2.4"/><circle cx="12" cy="88" r="2.4"/><circle cx="12" cy="106" r="2.4"/></g><g class="slots"><rect x="20" y="12" width="32" height="8"/><rect x="20" y="30" width="32" height="8"/><rect x="20" y="48" width="32" height="8"/><rect x="20" y="66" width="32" height="8"/><rect x="20" y="84" width="32" height="8"/><rect x="20" y="102" width="32" height="8"/></g></g>
+              <g transform="translate(200 230)"><rect class="dh-rack" width="60" height="120" rx="4"/><g class="leds l3"><circle cx="12" cy="16" r="2.4"/><circle cx="12" cy="34" r="2.4"/><circle cx="12" cy="52" r="2.4"/><circle cx="12" cy="70" r="2.4"/><circle cx="12" cy="88" r="2.4"/><circle cx="12" cy="106" r="2.4"/></g><g class="slots"><rect x="20" y="12" width="32" height="8"/><rect x="20" y="30" width="32" height="8"/><rect x="20" y="48" width="32" height="8"/><rect x="20" y="66" width="32" height="8"/><rect x="20" y="84" width="32" height="8"/><rect x="20" y="102" width="32" height="8"/></g></g>
+              <g transform="translate(280 230)"><rect class="dh-rack" width="60" height="120" rx="4"/><g class="leds l4"><circle cx="12" cy="16" r="2.4"/><circle cx="12" cy="34" r="2.4"/><circle cx="12" cy="52" r="2.4"/><circle cx="12" cy="70" r="2.4"/><circle cx="12" cy="88" r="2.4"/><circle cx="12" cy="106" r="2.4"/></g><g class="slots"><rect x="20" y="12" width="32" height="8"/><rect x="20" y="30" width="32" height="8"/><rect x="20" y="48" width="32" height="8"/><rect x="20" y="66" width="32" height="8"/><rect x="20" y="84" width="32" height="8"/><rect x="20" y="102" width="32" height="8"/></g></g>
+            </g>
+            <text x="210" y="372" class="dh-lbl" text-anchor="middle">GRID → TRANSFORMER → UPS → PDU → RACK</text>
+          </svg>
+        </div>
+      </div>
+
+      <!-- Real, sourced numbers only -->
+      <div class="container">
+        <ul class="stats" aria-label="Key numbers">
+          <li class="stat"><span class="stat__num"><span class="count" data-to="500">0</span><small>/220 kV</small></span><span class="stat__lbl">Substation where I supported transformer preventive maintenance (NTDC)</span></li>
+          <li class="stat"><span class="stat__num"><span class="count" data-to="132">0</span><small> kV</small></span><span class="stat__lbl">Grid &amp; transmission tenders: 3 live projects (Barqtron)</span></li>
+          <li class="stat"><span class="stat__num"><span class="count" data-to="40000" data-sep="1">0</span><small>+</small></span><span class="stat__lbl">Synchronised grid measurements from my PMU prototypes</span></li>
+          <li class="stat"><span class="stat__num"><small>&lt;</small><span class="count" data-to="5">0</span><small>%</small></span><span class="stat__lbl">Thesis FEM error, analysis range up to 2,000&nbsp;Hz</span></li>
+        </ul>
+      </div>
+      <a href="#value" class="scroll-cue" aria-label="Scroll to next section"><span></span></a>
+    </section>
+
+    <!-- ===== 2. VALUE PROPOSITION ===== -->
+    <section class="section" id="value">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">01 / Value</p>
+          <h2>What I bring to your data center</h2>
+          <p class="lead">Every card below is backed by a role or project you can check further down the page.</p>
+        </header>
+
+        <div class="cards cards--4">
+          <article class="card glow reveal">
+            <div class="card__icon" aria-hidden="true">⚡</div>
+            <h3>Hyperscale operations exposure</h3>
+            <p>Currently in AWS Data Center Engineering Operations in Milan: electrical safety and operational training, Power Prep, Power Ups and TPVR-based procedures, with exposure to UPS, MV/HV distribution, switchgear, transformers, generators, PDUs, monitoring and alarms.</p>
+            <p class="evidence mono">Evidence → AWS DCEO · 2026</p>
+          </article>
+          <article class="card glow reveal">
+            <div class="card__icon" aria-hidden="true">🔌</div>
+            <h3>HV &amp; transformer know-how</h3>
+            <p>Supported preventive maintenance of 500/220&nbsp;kV power transformers, circuit breakers, CTs/PTs and arresters at Pakistan's national grid operator, then spent my MSc thesis on what makes transformer cores vibrate and how to measure it.</p>
+            <p class="evidence mono">Evidence → NTDC · LUH thesis</p>
+          </article>
+          <article class="card glow reveal">
+            <div class="card__icon" aria-hidden="true">📐</div>
+            <h3>Grid-to-site project delivery</h3>
+            <p>On 132&nbsp;kV grid and transmission tenders I assessed substations on site, produced BOQs, cable schedules and Primavera P6 schedules, and coordinated ~$5M of transformer, switchgear and XLPE cable procurement.</p>
+            <p class="evidence mono">Evidence → Barqtron · 2024</p>
+          </article>
+          <article class="card glow reveal">
+            <div class="card__icon" aria-hidden="true">📈</div>
+            <h3>Test, measure, validate</h3>
+            <p>I build things and check them against data: PMU prototypes with 40,000+ synchronised measurements, an FEM model validated to &lt;5% error up to 2,000&nbsp;Hz, and PowerFactory studies automated from Python.</p>
+            <p class="evidence mono">Evidence → PMU · Thesis · LUH HiWi</p>
+          </article>
+        </div>
+
+        <!-- Interactive grid-to-rack power chain -->
+        <div class="chain reveal" id="chain">
+          <div class="chain__head">
+            <h3>Grid-to-rack: where my experience sits</h3>
+            <p class="muted">Select a stage of the power chain to see the evidence behind it.</p>
+          </div>
+          <div class="chain__track" role="tablist" aria-label="Power chain stages">
+            <!-- buttons injected by script.js from CHAIN data -->
+          </div>
+          <div class="chain__panel" id="chainPanel" role="tabpanel" aria-live="polite"></div>
+          <p class="chain__legend mono"><span class="tag tag--hands">Hands-on / project</span><span class="tag tag--exp">Exposure / training / academic</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. ABOUT ===== -->
+    <section class="section section--alt" id="about">
+      <div class="container about">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">02 / About</p>
+          <h2>Power engineer, built from the grid inwards</h2>
+        </header>
+        <div class="about__body reveal">
+          <p>A data center may be the load, but the engineering starts much earlier: at the grid, the transformer and every layer of electrical infrastructure in between. That is where my background sits.</p>
+          <p>I'm currently in Data Center Engineering Operations at AWS in Milan, while completing my MSc in Energy Engineering at the University of Padova. Before that I worked on 132&nbsp;kV grid tenders, supported maintenance at a 500/220&nbsp;kV substation, and wrote my thesis at Leibniz University Hannover on the structural dynamics of a power-transformer core.</p>
+          <p>I work carefully: measure first, model second, validate against data, document everything. I'm looking for a full-time critical power or data center operations role in the EU from 2027.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 4. SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">03 / Skills</p>
+          <h2>Core skills</h2>
+          <p class="lead">Honest labels: <span class="tag tag--hands">solid</span> = hands-on / project work, <span class="tag tag--exp">outlined</span> = exposure, training or academic.</p>
+        </header>
+
+        <div class="skills">
+          <div class="skill-group reveal">
+            <h3>Critical Power</h3>
+            <ul class="chips">
+              <li class="chip">Power transformers</li>
+              <li class="chip">HV switchgear &amp; circuit breakers</li>
+              <li class="chip">CTs / PTs &amp; surge arresters</li>
+              <li class="chip">XLPE underground cable systems</li>
+              <li class="chip">Load flow &amp; fault analysis</li>
+              <li class="chip chip--exp">UPS systems</li>
+              <li class="chip chip--exp">Generators</li>
+              <li class="chip chip--exp">MV/HV distribution</li>
+              <li class="chip chip--exp">PDUs</li>
+              <li class="chip chip--exp">Distance, differential &amp; Buchholz protection</li>
+              <li class="chip chip--exp">Renewable grid integration</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Operations &amp; Maintenance</h3>
+            <ul class="chips">
+              <li class="chip">Preventive maintenance (HV substation)</li>
+              <li class="chip">On-site substation assessments</li>
+              <li class="chip">Technical documentation</li>
+              <li class="chip chip--exp">Monitoring &amp; alarms</li>
+              <li class="chip chip--exp">Power Prep · Power Ups · TPVR procedures</li>
+              <li class="chip chip--exp">Electrical safety training (AWS)</li>
+              <li class="chip chip--exp">OSHA workplace safety</li>
+              <li class="chip chip--exp">Gas engine O&amp;M (Jenbacher 420)</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Testing &amp; Measurement</h3>
+            <ul class="chips">
+              <li class="chip">Vibration &amp; acoustic measurement</li>
+              <li class="chip">FEM-to-measurement validation</li>
+              <li class="chip">PMUs &amp; synchrophasors</li>
+              <li class="chip">GPS time synchronisation</li>
+              <li class="chip">Fault detection prototyping</li>
+              <li class="chip chip--exp">IEC 60076-10 sound-level principles</li>
+              <li class="chip chip--exp">IEEE C37.118 (familiar)</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Software &amp; Tools</h3>
+            <ul class="chips">
+              <li class="chip">DIgSILENT PowerFactory</li>
+              <li class="chip">PowerFactory–Python automation</li>
+              <li class="chip">COMSOL Multiphysics</li>
+              <li class="chip">MATLAB / Simulink</li>
+              <li class="chip">MATPOWER</li>
+              <li class="chip">Python (pandas, NumPy, scikit-learn)</li>
+              <li class="chip">AutoCAD</li>
+              <li class="chip">Primavera P6</li>
+              <li class="chip">PLC / SCADA (Factory I/O)</li>
+              <li class="chip">ETAP</li>
+              <li class="chip chip--exp">PSCAD</li>
+              <li class="chip chip--exp">LabVIEW</li>
+              <li class="chip">SPSS · Stata</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li class="chip">English · C1</li>
+              <li class="chip">Italian · A2</li>
+              <li class="chip">German · A1</li>
+              <li class="chip">Urdu · Native</li>
+              <li class="chip">Punjabi · Native</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 5. EXPERIENCE ===== -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">04 / Experience</p>
+          <h2>Experience timeline</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="tl reveal tl--now">
+            <div class="tl__meta mono"><span class="tl__date">Sep 2026 – Present</span><span>Milan, Italy</span></div>
+            <div class="tl__body">
+              <h3>Data Center Engineering Operations (DCEO) Intern</h3>
+              <p class="tl__org">Amazon Web Services (AWS)</p>
+              <ul>
+                <li>Building practical DCEO experience through electrical safety and operational training, and Power Prep, Power Ups and TPVR-based procedures.</li>
+                <li>Exposure to mission-critical electrical infrastructure: UPS, MV/HV distribution, switchgear, transformers, generators, PDUs, monitoring and alarms, and preventive maintenance.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl reveal">
+            <div class="tl__meta mono"><span class="tl__date">Jul 2026 – Aug 2026</span><span>Hannover, Germany</span></div>
+            <div class="tl__body">
+              <h3>Research Assistant (HiWi): Power System Simulation</h3>
+              <p class="tl__org">Leibniz University Hannover · Institute of Electric Power Systems (IFES)</p>
+              <ul>
+                <li>Automated wind-turbine grid-integration studies by driving DIgSILENT PowerFactory directly from Python, replacing manual case-by-case runs with loop-controlled batch runs across operating scenarios.</li>
+                <li>Built a DLL-based interface linking DSL models to Python, so custom controller logic could be developed, versioned and tested outside the PowerFactory GUI.</li>
+                <li>Maintained the PowerFactory–Python toolchain and prepared structured result datasets for analysis.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl reveal">
+            <div class="tl__meta mono"><span class="tl__date">Apr 2026 – Aug 2026</span><span>Hannover, Germany</span></div>
+            <div class="tl__body">
+              <h3>MSc Thesis Researcher: Transformer Diagnostics</h3>
+              <p class="tl__org">Schering Institute (High Voltage Technology &amp; Asset Management), IFES, Leibniz University Hannover · Erasmus+</p>
+              <ul>
+                <li>Ran controlled experiments on a separate yoke of a special power-transformer core under varying clamping forces, analysing vibration and acoustic-emission spectra.</li>
+                <li>Built COMSOL Multiphysics FEM models coupling electromagnetic excitation to structural-mechanical response; validated against measurements with &lt;5% error across an analysis range up to 2,000&nbsp;Hz.</li>
+                <li>Applied IEC 60076-10 sound-level measurement principles to the design of the acoustic test setup.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl reveal">
+            <div class="tl__meta mono"><span class="tl__date">May 2024 – Oct 2024</span><span>Karachi, Pakistan</span></div>
+            <div class="tl__body">
+              <h3>Proposal Engineer: 132 kV Grid &amp; Transmission</h3>
+              <p class="tl__org">Barqtron Engineering Solutions</p>
+              <ul>
+                <li>Led bid development for three live 132&nbsp;kV grid and transmission projects; coordinated ~$5M procurement of power transformers, HV switchgear and underground XLPE cable systems across four supplier organisations.</li>
+                <li>Took part in five grid-station and transmission-line surveys and on-site substation assessments, producing technical compliance reports that secured bid qualification in government tender rounds.</li>
+                <li>Prepared RFQs, BOQs, cable schedules and AutoCAD drawings, ran technical–commercial bid evaluations, and built Primavera P6 schedules for civil, installation and commissioning works.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl reveal">
+            <div class="tl__meta mono"><span class="tl__date">Oct 2023 – Mar 2024</span><span>Karachi, Pakistan</span></div>
+            <div class="tl__body">
+              <h3>Technical Research Analyst</h3>
+              <p class="tl__org">One Click</p>
+              <ul>
+                <li>Cut average reporting turnaround by 20% across 25+ technical research projects by standardising quantitative analysis workflows in Python, SPSS and Stata.</li>
+                <li>Delivered structured client reports with reproducible data visualisations and quality-controlled datasets.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl reveal">
+            <div class="tl__meta mono"><span class="tl__date">Aug 2023 – Sep 2023</span><span>Remote</span></div>
+            <div class="tl__body">
+              <h3>Automation Intern: PLC, SCADA &amp; IIoT</h3>
+              <p class="tl__org">Automation Play</p>
+              <ul>
+                <li>Programmed PLCs and configured SCADA interfaces in Factory I/O across three automation projects and one IoT project.</li>
+                <li>Built an IoT remote temperature-monitoring system (ThingSpeak) capturing real-time data.</li>
+              </ul>
+            </div>
+          </li>
+          <li class="tl reveal">
+            <div class="tl__meta mono"><span class="tl__date">Jun 2023</span><span>Karachi, Pakistan</span></div>
+            <div class="tl__body">
+              <h3>Electrical Engineering Intern: 500/220 kV Substation</h3>
+              <p class="tl__org">National Transmission &amp; Dispatch Company (NTDC), Pakistan's national grid operator</p>
+              <ul>
+                <li>Supported preventive maintenance of 500/220&nbsp;kV power transformers, circuit breakers, CTs, PTs, and surge and lightning arresters.</li>
+                <li>Studied distance, differential and Buchholz protection schemes alongside protection engineers during live high-voltage operations.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== 6. PROJECTS ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">05 / Projects</p>
+          <h2>Key projects</h2>
+          <p class="lead">Each one framed the way an operations team thinks: the problem, what I did, the result, and why it matters inside a data center.</p>
+        </header>
+
+        <div class="cards cards--proj">
+          <article class="card proj glow reveal">
+            <p class="proj__kicker mono">MSc thesis · LUH Hannover · 2026</p>
+            <h3>Experimental and Numerical Analysis of the Structural Dynamic Behaviour of a Separate Yoke of a Special Power Transformer Core under Varying Clamping Forces</h3>
+            <dl>
+              <dt>Problem</dt><dd>Transformer core noise and vibration depend on assembly and clamping conditions, which are hard to predict before a unit is in service.</dd>
+              <dt>What I did</dt><dd>Measured vibration and acoustic emission of a separate yoke under varying clamping forces and built COMSOL FEM models coupling electromagnetic excitation to structural response.</dd>
+              <dt>Result</dt><dd>Model validated against measurements with <strong>&lt;5% error</strong> across an analysis range <strong>up to 2,000&nbsp;Hz</strong>.</dd>
+              <dt>DC relevance</dt><dd>Transformer condition monitoring, diagnostics and a predictive-maintenance mindset.</dd>
+            </dl>
+            <ul class="chips chips--sm"><li class="chip">COMSOL</li><li class="chip">Vibration &amp; acoustics</li><li class="chip">IEC 60076-10</li></ul>
+          </article>
+
+          <article class="card proj glow reveal">
+            <p class="proj__kicker mono">BE final year project · IGNITE funded · 2022–23</p>
+            <h3>Design and Development of a Phasor Measurement Unit (PMU) for Synchrophasor Data Analysis using Machine Learning</h3>
+            <dl>
+              <dt>Problem</dt><dd>Commercial PMUs are too expensive for monitoring distribution-level grids.</dd>
+              <dt>What I did</dt><dd>As lead developer, built three low-cost PMUs (Arduino, GPS time-sync, PZEM-004T sensors) with a phasor-estimation and timestamping pipeline streaming to the cloud.</dd>
+              <dt>Result</dt><dd><strong>40,000+</strong> synchronised measurements; ML load prediction at <strong>91% accuracy</strong>; selected for national IGNITE research funding.</dd>
+              <dt>DC relevance</dt><dd>Power monitoring, time-synchronised data and turning raw electrical data into decisions.</dd>
+            </dl>
+            <ul class="chips chips--sm"><li class="chip">Arduino / C++</li><li class="chip">GPS sync</li><li class="chip">Python · scikit-learn</li></ul>
+          </article>
+
+          <article class="card proj glow reveal">
+            <p class="proj__kicker mono">Power system modelling · 2022</p>
+            <h3>1.5 MW Wind Turbine Grid Integration</h3>
+            <dl>
+              <dt>Problem</dt><dd>Understand how a wind turbine behaves at the grid connection under changing wind and load.</dd>
+              <dt>What I did</dt><dd>Modelled turbine dynamics in MATLAB/Simulink under eight wind and load scenarios; ran grid-impact analysis in DIgSILENT PowerFactory.</dd>
+              <dt>Result</dt><dd>Assessed protection thresholds, relay coordination and fault ride-through response.</dd>
+              <dt>DC relevance</dt><dd>On-site renewables and generation behaving safely on a shared electrical network.</dd>
+            </dl>
+            <ul class="chips chips--sm"><li class="chip">MATLAB/Simulink</li><li class="chip">PowerFactory</li></ul>
+          </article>
+
+          <article class="card proj glow reveal">
+            <p class="proj__kicker mono">Load flow · 2022</p>
+            <h3>Load Flow Analysis: IEEE 9-Bus Test System</h3>
+            <dl>
+              <dt>Problem</dt><dd>Verify solver accuracy and network resilience on a standard benchmark system.</dd>
+              <dt>What I did</dt><dd>Implemented Newton-Raphson and Gauss-Seidel solvers in MATPOWER/MATLAB and assessed N-1 contingency scenarios.</dd>
+              <dt>Result</dt><dd>Bus voltages and reactive dispatch matched IEEE reference results with <strong>&lt;0.1% error</strong>.</dd>
+              <dt>DC relevance</dt><dd>N-1 thinking is the same logic behind redundant power paths.</dd>
+            </dl>
+            <ul class="chips chips--sm"><li class="chip">MATPOWER</li><li class="chip">MATLAB</li></ul>
+          </article>
+
+          <article class="card proj glow reveal">
+            <p class="proj__kicker mono">Protection prototype · 2022</p>
+            <h3>Three-Phase Fault Detection &amp; Protection System</h3>
+            <dl>
+              <dt>Problem</dt><dd>Detect and classify three-phase faults quickly on a distribution feeder.</dd>
+              <dt>What I did</dt><dd>Built an Arduino prototype with under/overvoltage protection logic on a scaled distribution feeder model.</dd>
+              <dt>Result</dt><dd>Real-time fault classification at <strong>97% accuracy</strong>.</dd>
+              <dt>DC relevance</dt><dd>Protection logic and abnormal-condition detection.</dd>
+            </dl>
+            <ul class="chips chips--sm"><li class="chip">Arduino</li><li class="chip">Protection logic</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 7. CERTIFICATES ===== -->
+    <section class="section section--alt" id="certificates">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">06 / Certificates</p>
+          <h2>Certificates &amp; training</h2>
+        </header>
+        <div class="filters" id="certFilters" role="group" aria-label="Filter certificates"></div>
+        <div class="certs" id="certGrid"><!-- generated from CERTIFICATES in script.js --></div>
+      </div>
+    </section>
+
+    <!-- ===== 8. EDUCATION ===== -->
+    <section class="section" id="education">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">07 / Education</p>
+          <h2>Education &amp; honours</h2>
+        </header>
+
+        <div class="cards cards--2">
+          <article class="card edu reveal">
+            <p class="proj__kicker mono">Sep 2024 – Dec 2026 (expected)</p>
+            <h3>MSc Energy Engineering</h3>
+            <p class="tl__org">University of Padova, Italy</p>
+            <p>Erasmus+ thesis exchange: Schering Institute, IFES, Leibniz University Hannover (Apr – Aug 2026).</p>
+            <p class="muted small">Relevant courses: Electric Power Systems · Technologies for HVAC and HVDC Transmission Systems · Smart Grids · Measurements and Instrumentation · Green Power Conversion and Utilization · Renewable Energy Technologies</p>
+          </article>
+          <article class="card edu reveal">
+            <p class="proj__kicker mono">Sep 2019 – Jul 2023</p>
+            <h3>BE Electrical Engineering (Power)</h3>
+            <p class="tl__org">Bahria University, Karachi, Pakistan</p>
+            <p><strong>CGPA 3.86 / 4.00 · Magna Cum Laude</strong> · ranked 3rd of 120.</p>
+            <p class="muted small">Grade A in: Power System Analysis · Power System Protection · Power Distribution &amp; Utilization · Electrical Power Transmission · Power Generation · Power Electronics · Renewable Energy Systems</p>
+          </article>
+        </div>
+
+        <ul class="honours reveal">
+          <li><span>🏆</span> IGNITE National Research Funding Award, 2022–23</li>
+          <li><span>🥇</span> Winner, In-Motion Idea Contest 2025, NOI Techpark, Bolzano</li>
+          <li><span>🎓</span> Magna Cum Laude &amp; Merit Scholar, Bahria University</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 9. LANGUAGES ===== -->
+    <section class="section section--alt" id="languages">
+      <div class="container">
+        <header class="sec-head reveal">
+          <p class="eyebrow mono">08 / Languages</p>
+          <h2>Languages (CEFR)</h2>
+        </header>
+        <ul class="langs reveal">
+          <li><span class="lang__name">English</span><span class="cefr" data-level="5" aria-label="C1"></span><span class="mono">C1</span></li>
+          <li><span class="lang__name">Italian</span><span class="cefr" data-level="2" aria-label="A2"></span><span class="mono">A2</span></li>
+          <li><span class="lang__name">German</span><span class="cefr" data-level="1" aria-label="A1"></span><span class="mono">A1</span></li>
+          <li><span class="lang__name">Urdu</span><span class="cefr" data-level="6" aria-label="Native"></span><span class="mono">Native</span></li>
+          <li><span class="lang__name">Punjabi</span><span class="cefr" data-level="6" aria-label="Native"></span><span class="mono">Native</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== HIRE ME ===== -->
+    <section class="section hire" id="hire">
+      <div class="container">
+        <div class="hire__box reveal">
+          <p class="eyebrow mono">09 / Hire me</p>
+          <h2>Need someone who understands the power chain behind the racks?</h2>
+          <p class="lead">I'm open to full-time <strong>Data Center Operations</strong>, <strong>Critical Facilities</strong>, <strong>Data Center Electrical</strong> and <strong>Power Systems</strong> roles across the EU from 2027. Email is the fastest way to reach me.</p>
+
+          <div class="hire__mail">
+            <a class="mail-link" href="mailto:umarrshahzad.pk@gmail.com?subject=Opportunity%20for%20Umar%20Shahzad">umarrshahzad.pk@gmail.com</a>
+            <button class="btn btn--ghost btn--sm" id="copyEmail" data-email="umarrshahzad.pk@gmail.com">Copy email</button>
+            <span class="copied mono" id="copiedMsg" role="status"></span>
+          </div>
+
+          <div class="hire__ctas">
+            <a class="btn btn--primary" href="mailto:umarrshahzad.pk@gmail.com?subject=Opportunity%20for%20Umar%20Shahzad">Email me</a>
+            <a class="btn btn--ghost" href="assets/CV.pdf" download>Download CV</a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/umar-shahzad/" target="_blank" rel="noopener">Message on LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== 10. CONTACT / FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <div>
+        <p class="footer__cta">Open to data center roles across the EU.</p>
+        <p class="muted small">Electrical Engineer · Data Center Critical Power &amp; Operations</p>
+      </div>
+      <ul class="footer__links">
+        <li><a href="mailto:umarrshahzad.pk@gmail.com">✉ umarrshahzad.pk@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/umar-shahzad/" target="_blank" rel="noopener">in /umar-shahzad</a></li>
+        <li><a href="https://github.com/umarcodebase" target="_blank" rel="noopener">⌥ github.com/umarcodebase</a></li>
+        <li><span>📍 Milan, Italy</span></li>
+      </ul>
+    </div>
+    <p class="container footer__copy muted small mono">© <span id="year">2026</span> Umar Shahzad</p>
+  </footer>
+
+  <!-- Certificate lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Certificate preview">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close preview">✕</button>
+    <img id="lightboxImg" alt="">
+    <p id="lightboxCap" class="mono small"></p>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
